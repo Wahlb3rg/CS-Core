@@ -15,10 +15,11 @@ namespace CS_core.Server
             
         }
 
-        [Command("ping")]
+        
+        /*[Command("ping")]
         public void HelloServer()
         {
             Debug.WriteLine("Hello from server!");
-        }
+        }*/
     }
 }

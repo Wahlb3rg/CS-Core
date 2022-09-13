@@ -13,21 +13,14 @@ namespace CS_core.Client
         public ClientMain()
         {
             //Piss("test");
-            
-            Debug.WriteLine("Hi from CS_core.Client!");
-            
-            
-            
-
-            
+            Debug.WriteLine("Hi from CS_core.Client! Det er mig der er en ændring");
         }
 
-        [Command("Teste")]
+        [Command("teste")]
         public void Tets()
         {
             BeginTextCommandDisplayHelp("STRING");
             AddTextComponentSubstringPlayerName("Det her er lige en test så nu skal jeg se hvad der sker");
-            AddTextComponentInteger(42);
             EndTextCommandDisplayHelp(0, false, true, -1);
         }
 

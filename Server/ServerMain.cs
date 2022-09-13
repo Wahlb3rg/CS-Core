@@ -10,7 +10,8 @@ namespace CS_core.Server
     {
         public ServerMain()
         {
-            Debug.WriteLine("Hi from CS_core.Server!");
+            Debug.WriteLine("Hi from CS_core.Server! Hej med dig!");
+            TriggerClientEvent(Player, "eventName", "Hello from server!");
             
             
         }

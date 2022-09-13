@@ -19,6 +19,10 @@ namespace CS_core.Client
         [Command("teste")]
         public void Tets()
         {
+            /*BeginTextCommandThefeedPost("STRING");
+            AddTextComponentSubstringPlayerName("String ding ding");
+            EndTextCommandThefeedPostTicker(true, false);*/
+            
             BeginTextCommandDisplayHelp("STRING");
             AddTextComponentSubstringPlayerName("Det her er lige en test så nu skal jeg se hvad der sker. Ding ding");
             EndTextCommandDisplayHelp(0, false, true, -1);
@@ -27,6 +31,7 @@ namespace CS_core.Client
         [Tick]
         public Task OnTick()
         {
+            DrawRect(0.05f, 0.05f, 0.05f, 0.5f, 255, 0, 0, 255);
             return Task.FromResult(0);
         }
     }

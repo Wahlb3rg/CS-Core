@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q8P1fUlh3w3aj6pk91DhbTfHHEysoqe1xZr12tb/qGIYvWV4qN6vc+b1kN8GLI0Ij/HvTv4vzDm8K4qlIZ0t+w==",
+  "success": true,
+  "projectFilePath": "F:\\CS FiveM\\CS-core\\Client\\CS-core.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lauri\\.nuget\\packages\\citizenfx.core.client\\1.0.5878\\citizenfx.core.client.1.0.5878.nupkg.sha512",
+    "C:\\Users\\lauri\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\lauri\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net452\\1.0.2\\microsoft.netframework.referenceassemblies.net452.1.0.2.nupkg.sha512",
+    "C:\\Users\\lauri\\.nuget\\packages\\citizenfx.framework.client\\0.2.3\\citizenfx.framework.client.0.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

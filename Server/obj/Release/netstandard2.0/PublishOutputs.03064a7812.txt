@@ -1,0 +1,4 @@
+F:\CS FiveM\CS-core\Server\bin\Release\netstandard2.0\publish\CS-core.Server.net.dll
+F:\CS FiveM\CS-core\Server\bin\Release\netstandard2.0\publish\CS-core.Server.deps.json
+F:\CS FiveM\CS-core\Server\bin\Release\netstandard2.0\publish\CS-core.Server.net.pdb
+F:\CS FiveM\CS-core\Server\bin\Release\netstandard2.0\publish\CitizenFX.Core.Server.dll

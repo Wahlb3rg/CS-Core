@@ -1,0 +1,9 @@
+F:\CS FiveM\CS-core\Client\bin\Release\net452\CS-core.Client.net.dll
+F:\CS FiveM\CS-core\Client\bin\Release\net452\CitizenFX.Core.Client.dll
+F:\CS FiveM\CS-core\Client\obj\Release\net452\CS-core.Client.csproj.AssemblyReference.cache
+F:\CS FiveM\CS-core\Client\obj\Release\net452\CS-core.Client.GeneratedMSBuildEditorConfig.editorconfig
+F:\CS FiveM\CS-core\Client\obj\Release\net452\CS-core.Client.AssemblyInfoInputs.cache
+F:\CS FiveM\CS-core\Client\obj\Release\net452\CS-core.Client.AssemblyInfo.cs
+F:\CS FiveM\CS-core\Client\obj\Release\net452\CS-core.Client.csproj.CoreCompileInputs.cache
+F:\CS FiveM\CS-core\Client\obj\Release\net452\CS-core.Client.csproj.CopyComplete
+F:\CS FiveM\CS-core\Client\obj\Release\net452\CS-core.Client.net.dll

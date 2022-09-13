@@ -20,7 +20,7 @@ namespace CS_core.Client
         public void Tets()
         {
             BeginTextCommandDisplayHelp("STRING");
-            AddTextComponentSubstringPlayerName("Det her er lige en test så nu skal jeg se hvad der sker");
+            AddTextComponentSubstringPlayerName("Det her er lige en test så nu skal jeg se hvad der sker. Ding ding");
             EndTextCommandDisplayHelp(0, false, true, -1);
         }
 

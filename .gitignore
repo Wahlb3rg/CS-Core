@@ -2,3 +2,5 @@
 dist
 .idea
 .vs
+**/bin
+**/obj

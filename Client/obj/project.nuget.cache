@@ -1,13 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Q8P1fUlh3w3aj6pk91DhbTfHHEysoqe1xZr12tb/qGIYvWV4qN6vc+b1kN8GLI0Ij/HvTv4vzDm8K4qlIZ0t+w==",
+  "dgSpecHash": "GwKuubuxEU6pLCxCWDvyhSt4s1hNUwQwv2ZNCLS3Hm5ppIbCjQwQmMw9fd/r5gC2QHAOVNAQ8msdursJ80G9lQ==",
   "success": true,
-  "projectFilePath": "F:\\CS FiveM\\CS-core\\Client\\CS-core.Client.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Client\\CS-core.Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lauri\\.nuget\\packages\\citizenfx.core.client\\1.0.5878\\citizenfx.core.client.1.0.5878.nupkg.sha512",
-    "C:\\Users\\lauri\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
-    "C:\\Users\\lauri\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net452\\1.0.2\\microsoft.netframework.referenceassemblies.net452.1.0.2.nupkg.sha512",
-    "C:\\Users\\lauri\\.nuget\\packages\\citizenfx.framework.client\\0.2.3\\citizenfx.framework.client.0.2.3.nupkg.sha512"
+    "C:\\Users\\gabri\\.nuget\\packages\\citizenfx.core.client\\1.0.5879\\citizenfx.core.client.1.0.5879.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\citizenfx.framework.client\\0.2.3\\citizenfx.framework.client.0.2.3.nupkg.sha512"
   ],
   "logs": []
 }

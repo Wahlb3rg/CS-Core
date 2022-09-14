@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\CS FiveM\\CS-core\\Server\\CS-core.Server.csproj": {}
+    "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Server\\CS-core.Server.csproj": {}
   },
   "projects": {
-    "F:\\CS FiveM\\CS-core\\Server\\CS-core.Server.csproj": {
+    "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Server\\CS-core.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\CS FiveM\\CS-core\\Server\\CS-core.Server.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Server\\CS-core.Server.csproj",
         "projectName": "CS-core.Server",
-        "projectPath": "F:\\CS FiveM\\CS-core\\Server\\CS-core.Server.csproj",
-        "packagesPath": "C:\\Users\\lauri\\.nuget\\packages\\",
-        "outputPath": "F:\\CS FiveM\\CS-core\\Server\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Server\\CS-core.Server.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

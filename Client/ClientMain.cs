@@ -22,9 +22,14 @@ namespace CS_core.Client
             /*BeginTextCommandThefeedPost("STRING");
             AddTextComponentSubstringPlayerName("String ding ding");
             EndTextCommandThefeedPostTicker(true, false);*/
-            
+
+            NotifyMessage("Det her er lige en test så nu skal jeg se hvad der sker. Ding ding");
+        }
+
+        private void NotifyMessage(string message)
+        {
             BeginTextCommandDisplayHelp("STRING");
-            AddTextComponentSubstringPlayerName("Det her er lige en test så nu skal jeg se hvad der sker. Ding ding");
+            AddTextComponentSubstringPlayerName(message);
             EndTextCommandDisplayHelp(0, false, true, -1);
         }
 

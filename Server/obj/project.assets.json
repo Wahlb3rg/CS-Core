@@ -2,13 +2,17 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "CitizenFX.Core.Server/1.0.5878": {
+      "CitizenFX.Core.Server/1.0.5879": {
         "type": "package",
         "compile": {
-          "lib/netstandard20/CitizenFX.Core.Server.dll": {}
+          "lib/netstandard20/CitizenFX.Core.Server.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard20/CitizenFX.Core.Server.dll": {}
+          "lib/netstandard20/CitizenFX.Core.Server.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -38,14 +42,14 @@
     }
   },
   "libraries": {
-    "CitizenFX.Core.Server/1.0.5878": {
-      "sha512": "FHucfAL3pQm7+vzB6g0nE7O9M6K/3vYfFA2hxdpgFbXRTuFJiW1sRHGeNPMd/YlMXNm4D5n6XaExEb+uLqSmPA==",
+    "CitizenFX.Core.Server/1.0.5879": {
+      "sha512": "us9xtM9TphGcsRA9UpIREezSaeZWAeYyQNY/vw9ADjYiBkW+qGHNlax9cAvV39etZMpUYgZTuRg+eVHOt2yDEA==",
       "type": "package",
-      "path": "citizenfx.core.server/1.0.5878",
+      "path": "citizenfx.core.server/1.0.5879",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "citizenfx.core.server.1.0.5878.nupkg.sha512",
+        "citizenfx.core.server.1.0.5879.nupkg.sha512",
         "citizenfx.core.server.nuspec",
         "lib/net45/CitizenFX.Core.Server.dll",
         "lib/net45/CitizenFX.Core.Server.xml",
@@ -205,19 +209,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lauri\\.nuget\\packages\\": {}
+    "C:\\Users\\gabri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\CS FiveM\\CS-core\\Server\\CS-core.Server.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Server\\CS-core.Server.csproj",
       "projectName": "CS-core.Server",
-      "projectPath": "F:\\CS FiveM\\CS-core\\Server\\CS-core.Server.csproj",
-      "packagesPath": "C:\\Users\\lauri\\.nuget\\packages\\",
-      "outputPath": "F:\\CS FiveM\\CS-core\\Server\\obj\\",
+      "projectPath": "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Server\\CS-core.Server.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

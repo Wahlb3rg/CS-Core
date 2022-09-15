@@ -31,6 +31,12 @@ namespace CS_core.Client
             BeginTextCommandDisplayHelp("STRING");
             AddTextComponentSubstringPlayerName(message);
             EndTextCommandDisplayHelp(0, false, true, -1);
+            
+            /* Help texts support text formatting, check out https://docs.fivem.net/docs/game-references/text-formatting/
+            AddTextEntry('HelpMsg', 'Press ~INPUT_CONTEXT~ to do something.');
+
+            BeginTextCommandDisplayHelp('HelpMsg');
+            EndTextCommandDisplayHelp(0, false, true, -1);*/
         }
 
         [Tick]

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GwKuubuxEU6pLCxCWDvyhSt4s1hNUwQwv2ZNCLS3Hm5ppIbCjQwQmMw9fd/r5gC2QHAOVNAQ8msdursJ80G9lQ==",
+  "dgSpecHash": "m/UEarYPOvn/6o3RNbxIvKQfT3HN27gvq9sAf0mch3uH2b4m4NcLZu4ALhqhzBufV12tI8hTkiEKUp+UyU3HkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Client\\CS-core.Client.csproj",
+  "projectFilePath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\CS-core.Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gabri\\.nuget\\packages\\citizenfx.core.client\\1.0.5879\\citizenfx.core.client.1.0.5879.nupkg.sha512",
-    "C:\\Users\\gabri\\.nuget\\packages\\citizenfx.framework.client\\0.2.3\\citizenfx.framework.client.0.2.3.nupkg.sha512"
+    "C:\\Users\\Anett\\.nuget\\packages\\citizenfx.core.client\\1.0.5884\\citizenfx.core.client.1.0.5884.nupkg.sha512",
+    "C:\\Users\\Anett\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\Anett\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net452\\1.0.2\\microsoft.netframework.referenceassemblies.net452.1.0.2.nupkg.sha512",
+    "C:\\Users\\Anett\\.nuget\\packages\\citizenfx.framework.client\\0.2.3\\citizenfx.framework.client.0.2.3.nupkg.sha512"
   ],
   "logs": []
 }

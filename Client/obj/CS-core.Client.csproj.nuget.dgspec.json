@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Client\\CS-core.Client.csproj": {}
+    "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\CS-core.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Client\\CS-core.Client.csproj": {
+    "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\CS-core.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Client\\CS-core.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\CS-core.Client.csproj",
         "projectName": "CS-core.Client",
-        "projectPath": "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Client\\CS-core.Client.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\Source\\Repos\\CS-Core-cock\\Client\\obj\\",
+        "projectPath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\CS-core.Client.csproj",
+        "packagesPath": "C:\\Users\\Anett\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Anett\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net452"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +41,12 @@
             "CitizenFX.Core.Client": {
               "target": "Package",
               "version": "[1.0.*, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
             }
           },
           "downloadDependencies": [
@@ -56,7 +60,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Anett\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

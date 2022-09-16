@@ -15,7 +15,20 @@ namespace CS_core.Client
             //Piss("test");
             Debug.WriteLine("Hi from CS_core.Client! Det er mig der er en ændring");
         }
+        
+        private void NotifyMessage(string message)
+        {
+            BeginTextCommandDisplayHelp("STRING");
+            AddTextComponentSubstringPlayerName(message);
+            EndTextCommandDisplayHelp(0, false, true, -1);
+        }
 
+        [Tick]
+        public Task OnTick()
+        {
+            return Task.FromResult(0);
+        }
+        
         [Command("teste")]
         public void Tets()
         {
@@ -24,26 +37,6 @@ namespace CS_core.Client
             EndTextCommandThefeedPostTicker(true, false);*/
 
             NotifyMessage("Det her er lige en test så nu skal jeg se hvad der sker. Ding ding");
-        }
-
-        private void NotifyMessage(string message)
-        {
-            BeginTextCommandDisplayHelp("STRING");
-            AddTextComponentSubstringPlayerName(message);
-            EndTextCommandDisplayHelp(0, false, true, -1);
-            
-            /* Help texts support text formatting, check out https://docs.fivem.net/docs/game-references/text-formatting/
-            AddTextEntry('HelpMsg', 'Press ~INPUT_CONTEXT~ to do something.');
-
-            BeginTextCommandDisplayHelp('HelpMsg');
-            EndTextCommandDisplayHelp(0, false, true, -1);*/
-        }
-
-        [Tick]
-        public Task OnTick()
-        {
-            DrawRect(0.05f, 0.05f, 0.05f, 0.5f, 255, 0, 0, 255);
-            return Task.FromResult(0);
         }
     }
 }

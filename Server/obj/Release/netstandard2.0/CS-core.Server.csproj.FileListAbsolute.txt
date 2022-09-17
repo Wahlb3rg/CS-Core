@@ -1,10 +1,10 @@
-F:\CS FiveM\CS-core\Server\bin\Release\netstandard2.0\CS-core.Server.deps.json
-F:\CS FiveM\CS-core\Server\bin\Release\netstandard2.0\CS-core.Server.net.dll
-F:\CS FiveM\CS-core\Server\bin\Release\netstandard2.0\CS-core.Server.net.pdb
-F:\CS FiveM\CS-core\Server\obj\Release\netstandard2.0\CS-core.Server.csproj.AssemblyReference.cache
-F:\CS FiveM\CS-core\Server\obj\Release\netstandard2.0\CS-core.Server.GeneratedMSBuildEditorConfig.editorconfig
-F:\CS FiveM\CS-core\Server\obj\Release\netstandard2.0\CS-core.Server.AssemblyInfoInputs.cache
-F:\CS FiveM\CS-core\Server\obj\Release\netstandard2.0\CS-core.Server.AssemblyInfo.cs
-F:\CS FiveM\CS-core\Server\obj\Release\netstandard2.0\CS-core.Server.csproj.CoreCompileInputs.cache
-F:\CS FiveM\CS-core\Server\obj\Release\netstandard2.0\CS-core.Server.net.dll
-F:\CS FiveM\CS-core\Server\obj\Release\netstandard2.0\CS-core.Server.net.pdb
+F:\CS FiveM\5m kit\coreting\CS-Core\Server\bin\Release\netstandard2.0\CS-Core.Server.deps.json
+F:\CS FiveM\5m kit\coreting\CS-Core\Server\bin\Release\netstandard2.0\CS-Core.Server.net.dll
+F:\CS FiveM\5m kit\coreting\CS-Core\Server\bin\Release\netstandard2.0\CS-Core.Server.net.pdb
+F:\CS FiveM\5m kit\coreting\CS-Core\Server\obj\Release\netstandard2.0\CS-Core.Server.csproj.AssemblyReference.cache
+F:\CS FiveM\5m kit\coreting\CS-Core\Server\obj\Release\netstandard2.0\CS-Core.Server.GeneratedMSBuildEditorConfig.editorconfig
+F:\CS FiveM\5m kit\coreting\CS-Core\Server\obj\Release\netstandard2.0\CS-Core.Server.AssemblyInfoInputs.cache
+F:\CS FiveM\5m kit\coreting\CS-Core\Server\obj\Release\netstandard2.0\CS-Core.Server.AssemblyInfo.cs
+F:\CS FiveM\5m kit\coreting\CS-Core\Server\obj\Release\netstandard2.0\CS-Core.Server.csproj.CoreCompileInputs.cache
+F:\CS FiveM\5m kit\coreting\CS-Core\Server\obj\Release\netstandard2.0\CS-Core.Server.net.dll
+F:\CS FiveM\5m kit\coreting\CS-Core\Server\obj\Release\netstandard2.0\CS-Core.Server.net.pdb

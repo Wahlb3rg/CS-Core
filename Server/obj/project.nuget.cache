@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sDa2DOhjrkOzRVL0biYOStXTVsWok5xDN/wMd2WpcBwptEKk/fDwxZ1nRv9PZHUU0hUG4ZOyat0yj5DkS1DgzA==",
+  "dgSpecHash": "xT4nw42AMGvZMzwrHFiZYtneQnZkzxarhoMqmXLG1vXlaer7lDdIBlbNnT18GfJpl1uO9udXXGNP7qFeR24R2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Server\\CS-core.Server.csproj",
+  "projectFilePath": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Server\\CS-Core.Server.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Anett\\.nuget\\packages\\citizenfx.core.server\\1.0.5884\\citizenfx.core.server.1.0.5884.nupkg.sha512",
-    "C:\\Users\\Anett\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Anett\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\lauri\\.nuget\\packages\\citizenfx.core.server\\1.0.5885\\citizenfx.core.server.1.0.5885.nupkg.sha512",
+    "C:\\Users\\lauri\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lauri\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "CitizenFX.Core.Server/1.0.5884": {
+      "CitizenFX.Core.Server/1.0.5885": {
         "type": "package",
         "compile": {
           "lib/netstandard20/CitizenFX.Core.Server.dll": {
@@ -42,14 +42,14 @@
     }
   },
   "libraries": {
-    "CitizenFX.Core.Server/1.0.5884": {
-      "sha512": "gq8uBLGfThVAhUtKvR8hoHJXlJTi8d6i3bY9xACVKqnWIWX9ojSrq33xllUtGIf0fiRnFMuzJDNN+j1GTtsSOw==",
+    "CitizenFX.Core.Server/1.0.5885": {
+      "sha512": "GekcjU5tFPUnh7zru1xWzvRI3tTiBb7nDvDx8oa0/VH+GY2/UfeYC15XhySe4BDUYUPxhoM1YjGcTFpdP5cxYA==",
       "type": "package",
-      "path": "citizenfx.core.server/1.0.5884",
+      "path": "citizenfx.core.server/1.0.5885",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "citizenfx.core.server.1.0.5884.nupkg.sha512",
+        "citizenfx.core.server.1.0.5885.nupkg.sha512",
         "citizenfx.core.server.nuspec",
         "lib/net45/CitizenFX.Core.Server.dll",
         "lib/net45/CitizenFX.Core.Server.xml",
@@ -209,24 +209,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anett\\.nuget\\packages\\": {}
+    "C:\\Users\\lauri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Server\\CS-core.Server.csproj",
-      "projectName": "CS-core.Server",
-      "projectPath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Server\\CS-core.Server.csproj",
-      "packagesPath": "C:\\Users\\Anett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Server\\obj\\",
+      "projectUniqueName": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Server\\CS-Core.Server.csproj",
+      "projectName": "CS-Core.Server",
+      "projectPath": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Server\\CS-Core.Server.csproj",
+      "packagesPath": "C:\\Users\\lauri\\.nuget\\packages\\",
+      "outputPath": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Anett\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\lauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -267,7 +269,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Users\\Anett\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

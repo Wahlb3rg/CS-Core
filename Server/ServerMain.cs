@@ -1,26 +1,21 @@
 using System;
-using System.Collections.Generic;
-using System.Dynamic;
 using System.Threading.Tasks;
 using CitizenFX.Core;
 
-namespace CS_core.Server
+namespace CSCore.Server
 {
     public class ServerMain : BaseScript
     {
         public ServerMain()
         {
-            Debug.WriteLine("Hi from CS_core.Server! Hej med dig!");
-            TriggerClientEvent(Player, "eventName", "Hello from server!");
-            
-            
+            Debug.WriteLine("Hi from CSCore.Server!");
         }
 
-        
-        /*[Command("ping")]
+        [Command("hello_server")]
         public void HelloServer()
         {
-            Debug.WriteLine("Hello from server!");
-        }*/
+            Debug.WriteLine("Vi prøver lige igen igen");
+            //NotifyMessage("Jamen hej med dig");
+        }
     }
 }

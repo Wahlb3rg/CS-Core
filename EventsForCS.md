@@ -22,6 +22,8 @@ but using the TriggerClientEvent native function instead.
 
 # Listening for events
 
+In C#, you use the [FromSource] attribute, as seen in the example below.
+
 Usually in the constructor of a class that inherits BaseScript, but can be done anywhere in a BaseScript.
 `EventHandlers["eventName"] += new Action<string, bool>(TargetFunction);`
 

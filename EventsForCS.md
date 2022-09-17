@@ -54,7 +54,7 @@ EventHandlers["netEventName"] += new Action<Player, string, bool>(TargetFunction
 ```
 
 
-// Create a function to handle the event somewhere else in your code, or use a lambda.
+Create a function to handle the event somewhere else in your code, or use a lambda.
 ```cs
 private void TargetFunction([FromSource] Player source, string param1, bool param2)
 {

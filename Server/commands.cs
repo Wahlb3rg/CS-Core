@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using CitizenFX.Core;
 
-namespace CSCore.commands
+namespace CSCore.Server
 {
     public class ServerCommands : BaseScript
     {
@@ -17,6 +17,7 @@ namespace CSCore.commands
         {
             Debug.WriteLine("Hej med dig");
             //NotifyMessage("Jamen hej med dig");
+            CSCore
         }
 
         [Command("hello_server")]
@@ -24,12 +25,6 @@ namespace CSCore.commands
         {
             Debug.WriteLine("Virker det her eller ej");
             //NotifyMessage("Jamen hej med dig");
-        }
-
-        [Command("nut")]
-        private void Nuts()
-        {
-            Debug.WriteLine("CUM NUT AHHH");
         }
         
     }

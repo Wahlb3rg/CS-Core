@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using CitizenFX.Core;
 using static CitizenFX.Core.Native.API;
 
-namespace CSCore.Client
+namespace CSCoreClient
 {
     public class ClientMain : BaseScript
     {
@@ -19,7 +19,7 @@ namespace CSCore.Client
 
             return Task.FromResult(0);
         }
-         public void NotifyMessage(string message)
+         public static void NotifyMessage(string message)
         {
             BeginTextCommandDisplayHelp("STRING");
             AddTextComponentSubstringPlayerName(message);

@@ -11,63 +11,8 @@ namespace CSCore.Server
             Debug.WriteLine("Hi from CSCore.Server!");
         }
 
-<<<<<<< HEAD
         
         
-=======
-
-        [Command("hello_server")]
-        public void HelloServer()
-        {
-            Debug.WriteLine("Vi prøver lige igen igen");
-            //NotifyMessage("Jamen hej med dig");
-        }
-        
-        /*RegisterCommand("ping", new Action<int, List<object>, string>((source, args, rawCommand) =>
-        {
-            if (source > 0) // it's a player.
-            {
-                // Create a message object.
-                dynamic messageObject = new ExpandoObject();
-                // Set the message object args (message author, message content)
-                messageObject.args = new string[] { GetPlayerName(source.ToString()), "PONG!" };
-                // Set the message color (r, g, b)
-                messageObject.color = new int[] { 5, 255, 255 };
-
-                // Trigger the client event with the message object on all clients.
-                TriggerClientEvent("chat:addMessage", messageObject);
-            }
-            // It's not a player, so it's the server console, a RCON client, or a resource.
-            else
-            {
-                Debug.WriteLine("This command was executed by the server console, RCON client, or a resource.");
-            }
-        }), false /*This command is also not restricted, anyone can use it.*/ );*/
-
-        
-        // Connect til databse
-        /*public static void TestConnection()
-        {
-            try 
-            {
-                using(MySqlConnection connection = new MySqlConnection(connStr))
-            {
-                Debug.WriteLine("Connecting to MySQL Database...");
-                connection.Open();
-
-                if(connection.State == ConnectionState.Open) 
-                {
-                    Debug.WriteLine("DATABASE: Connected to MySQL Server.");
-                }
-            }
-            }
-            catch(Exception ex) 
-            {
-                Debug.WriteLine($"[EXCEPTION - TestConnection] {ex.Message}");
-                Debug.WriteLine($"[EXCEPTION - TestConnection] {ex.StackTrace}");
-            }
-        }*/
->>>>>>> 077a86f8b64dec2934a0f29ed978d1748e7e45b9
     }
 }
 
@@ -135,3 +80,4 @@ function QBCore.Commands.Refresh(source)
         TriggerClientEvent('chat:addSuggestions', src, suggestions)
     end
 end 
+*/

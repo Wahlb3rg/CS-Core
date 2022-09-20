@@ -11,12 +11,7 @@ namespace CSCore.Server
             Debug.WriteLine("Hi from CSCore.Server!");
         }
 
-
-        [Command("hello_server")]
-        public void HelloServer()
-        {
-            Debug.WriteLine("Vi prøver lige igen igen");
-            //NotifyMessage("Jamen hej med dig");
-        }
+        
+        
     }
 }

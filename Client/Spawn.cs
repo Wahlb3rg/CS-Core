@@ -10,13 +10,13 @@ using System.Threading.Tasks;
 using CitizenFX.Core;
 using static CitizenFX.Core.Native.API;
 
-namespace Client.Managers
+namespace CSCoreClient
 {
     public class Spawn : BaseScript
     {
-        private static bool _spawnLock = false;
-        
-        public static void FreezePlayer(int playerId, bool freeze)
+        private static bool _spawnLock;
+
+        private static void FreezePlayer(int playerId, bool freeze)
         {
             var ped = GetPlayerPed(playerId);
             
@@ -33,9 +33,7 @@ namespace Client.Managers
                 FreezeEntityPosition(ped, false);
                 //SetCharNeverTargetted(ped, false)
                 SetPlayerInvincible(playerId, false);
-            } 
-            else 
-            {
+            } else {
                 if (IsEntityVisible(ped))
                     SetEntityVisible(ped, false, false);
 

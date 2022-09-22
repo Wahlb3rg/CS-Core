@@ -1,6 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using CitizenFX.Core;
+using Mono.CSharp;
 using static CitizenFX.Core.Native.API;
 
 namespace CSCoreClient
@@ -9,6 +10,7 @@ namespace CSCoreClient
     {
         public ClientMain()
         {
+            Spawn.SpawnPlayer("S_M_Y_MARINE_01", 0.916756f, 528.485f, 174.628f, 0f);
             Debug.WriteLine("Hi from CSCore.Client!");
         }
 
@@ -19,22 +21,9 @@ namespace CSCoreClient
 
             return Task.FromResult(0);
         }
-         public static void NotifyMessage(string message)
-        {
-            BeginTextCommandDisplayHelp("STRING");
-            AddTextComponentSubstringPlayerName(message);
-            EndTextCommandDisplayHelp(0, false, true, -1);
-        }
+         
         
-        [Command("teste")]
-        public void Tets()
-        {
-            /*BeginTextCommandThefeedPost("STRING");
-            AddTextComponentSubstringPlayerName("String ding ding");
-            EndTextCommandThefeedPostTicker(true, false);*/
-
-            NotifyMessage("~g~Given weapons with ~INPUT_VEH_DUCK~");
-        }
+        
     }
 }
 

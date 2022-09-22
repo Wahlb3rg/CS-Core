@@ -18,6 +18,22 @@ namespace CSCore.Server
 
 /*
 
+RegisterNetEvent('qb-multicharacter:server:loadUserData', function(cData)
+    local src = source
+    if QBCore.Player.Login(src, cData.citizenid) then
+        repeat
+            Wait(10)
+        until hasDonePreloading[src]
+        print('^2[qb-core]^7 '..GetPlayerName(src)..' (Citizen ID: '..cData.citizenid..') has succesfully loaded!')
+        QBCore.Commands.Refresh(src)
+        loadHouseData(src)
+        TriggerClientEvent('apartments:client:setupSpawnUI', src, cData)
+        TriggerEvent("qb-log:server:CreateLog", "joinleave", "Loaded", "green", "**".. GetPlayerName(src) .. "** ("..(QBCore.Functions.GetIdentifier(src, 'discord') or 'undefined') .." |  ||"  ..(QBCore.Functions.GetIdentifier(src, 'ip') or 'undefined') ..  "|| | " ..(QBCore.Functions.GetIdentifier(src, 'license') or 'undefined') .." | " ..cData.citizenid.." | "..src..") loaded..")
+    end
+end)
+
+------------------------------------------------------------------------------------------------------------------------
+
 function QBCore.Commands.Add(name, help, arguments, argsrequired, callback, permission, ...)
     local restricted = true -- Default to restricted for all commands
     if not permission then permission = 'user' end -- some commands don't pass permission level

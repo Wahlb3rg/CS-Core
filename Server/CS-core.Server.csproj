@@ -11,5 +11,6 @@
 
     <Compile Include="../Shared/**/*.cs" />
     <Compile Include=".cs" />
+    <PackageReference Include="CitizenFX.Framework.Client" Version="0.2.2" />
   </ItemGroup>
 </Project>

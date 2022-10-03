@@ -2,17 +2,38 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "CitizenFX.Core.Server/1.0.5885": {
+      "CitizenFX.Core.Server/1.0.5909": {
         "type": "package",
         "compile": {
-          "lib/netstandard20/CitizenFX.Core.Server.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard20/CitizenFX.Core.Server.dll": {}
         },
         "runtime": {
-          "lib/netstandard20/CitizenFX.Core.Server.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard20/CitizenFX.Core.Server.dll": {}
+        }
+      },
+      "CitizenFX.Framework.Client/0.2.2": {
+        "type": "package",
+        "compile": {
+          "ref/net452/Microsoft.CSharp.dll": {},
+          "ref/net452/Mono.CSharp.dll": {},
+          "ref/net452/Mono.Posix.dll": {},
+          "ref/net452/Mono.Security.dll": {},
+          "ref/net452/MsgPack.dll": {},
+          "ref/net452/System.Collections.Immutable.dll": {},
+          "ref/net452/System.Configuration.dll": {},
+          "ref/net452/System.Core.dll": {},
+          "ref/net452/System.Data.dll": {},
+          "ref/net452/System.Drawing.dll": {},
+          "ref/net452/System.EnterpriseServices.dll": {},
+          "ref/net452/System.Numerics.dll": {},
+          "ref/net452/System.Reflection.Metadata.dll": {},
+          "ref/net452/System.Runtime.Serialization.dll": {},
+          "ref/net452/System.ServiceModel.Internals.dll": {},
+          "ref/net452/System.Web.dll": {},
+          "ref/net452/System.Xml.Linq.dll": {},
+          "ref/net452/System.Xml.dll": {},
+          "ref/net452/System.dll": {},
+          "ref/net452/mscorlib.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -42,19 +63,51 @@
     }
   },
   "libraries": {
-    "CitizenFX.Core.Server/1.0.5885": {
-      "sha512": "GekcjU5tFPUnh7zru1xWzvRI3tTiBb7nDvDx8oa0/VH+GY2/UfeYC15XhySe4BDUYUPxhoM1YjGcTFpdP5cxYA==",
+    "CitizenFX.Core.Server/1.0.5909": {
+      "sha512": "N4qgoZR2baOqVoGN08MqJpq/kV01TLXJb4r5dVHKWTqlYusCqkfT0+2hxKXv3vqL9DSQgTOPnAExnb9tcyieJA==",
       "type": "package",
-      "path": "citizenfx.core.server/1.0.5885",
+      "path": "citizenfx.core.server/1.0.5909",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "citizenfx.core.server.1.0.5885.nupkg.sha512",
+        "citizenfx.core.server.1.0.5909.nupkg.sha512",
         "citizenfx.core.server.nuspec",
         "lib/net45/CitizenFX.Core.Server.dll",
         "lib/net45/CitizenFX.Core.Server.xml",
         "lib/netstandard20/CitizenFX.Core.Server.dll",
         "lib/netstandard20/CitizenFX.Core.Server.xml"
+      ]
+    },
+    "CitizenFX.Framework.Client/0.2.2": {
+      "sha512": "anZXoc5f+/HpV+Ozlm2Pn16rcA65LaIb+znUU9smq0SEOTMLcVEpKurHpdI0qr3mEJFjiPplYMmWy6JuTHd/Pg==",
+      "type": "package",
+      "path": "citizenfx.framework.client/0.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "citizenfx.framework.client.0.2.2.nupkg.sha512",
+        "citizenfx.framework.client.nuspec",
+        "data/FrameworkList.xml",
+        "ref/net452/Microsoft.CSharp.dll",
+        "ref/net452/Mono.CSharp.dll",
+        "ref/net452/Mono.Posix.dll",
+        "ref/net452/Mono.Security.dll",
+        "ref/net452/MsgPack.dll",
+        "ref/net452/System.Collections.Immutable.dll",
+        "ref/net452/System.Configuration.dll",
+        "ref/net452/System.Core.dll",
+        "ref/net452/System.Data.dll",
+        "ref/net452/System.Drawing.dll",
+        "ref/net452/System.EnterpriseServices.dll",
+        "ref/net452/System.Numerics.dll",
+        "ref/net452/System.Reflection.Metadata.dll",
+        "ref/net452/System.Runtime.Serialization.dll",
+        "ref/net452/System.ServiceModel.Internals.dll",
+        "ref/net452/System.Web.dll",
+        "ref/net452/System.Xml.Linq.dll",
+        "ref/net452/System.Xml.dll",
+        "ref/net452/System.dll",
+        "ref/net452/mscorlib.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -205,6 +258,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "CitizenFX.Core.Server >= 1.0.*",
+      "CitizenFX.Framework.Client >= 0.2.2",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -251,6 +305,10 @@
             "target": "Package",
             "version": "[1.0.*, )"
           },
+          "CitizenFX.Framework.Client": {
+            "target": "Package",
+            "version": "[0.2.2, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -272,5 +330,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CitizenFX.Framework.Client 0.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CitizenFX.Framework.Client",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

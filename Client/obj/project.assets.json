@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.5.2": {
-      "CitizenFX.Core.Client/1.0.5885": {
+      "CitizenFX.Core.Client/1.0.5914": {
         "type": "package",
         "compile": {
           "lib/net45/CitizenFX.Core.Client.dll": {
@@ -30,14 +30,14 @@
     }
   },
   "libraries": {
-    "CitizenFX.Core.Client/1.0.5885": {
-      "sha512": "VKPNQeH+KXX385qOz+tGQ7Wmec1XsImETUrdkGNVpj6kdHMcYTFR7vYga49KOd0syTmUuBmF9lwNHsI7MGBXrQ==",
+    "CitizenFX.Core.Client/1.0.5914": {
+      "sha512": "TRE479X5vBJCSua2hLB/tWDGJ+T8LdqbClgHf4Idowo/aiOTR0vzSvgZlliG1oCEgPEptdUOsCqDIQU3DxW6gg==",
       "type": "package",
-      "path": "citizenfx.core.client/1.0.5885",
+      "path": "citizenfx.core.client/1.0.5914",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "citizenfx.core.client.1.0.5885.nupkg.sha512",
+        "citizenfx.core.client.1.0.5914.nupkg.sha512",
         "citizenfx.core.client.nuspec",
         "lib/net45/CitizenFX.Core.Client.dll",
         "lib/net45/CitizenFX.Core.Client.xml"
@@ -384,26 +384,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lauri\\.nuget\\packages\\": {}
+    "C:\\Users\\Anett\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Client\\CS-Core.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\CS-Core.Client.csproj",
       "projectName": "CS-Core.Client",
-      "projectPath": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Client\\CS-Core.Client.csproj",
-      "packagesPath": "C:\\Users\\lauri\\.nuget\\packages\\",
-      "outputPath": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Client\\obj\\",
+      "projectPath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\CS-Core.Client.csproj",
+      "packagesPath": "C:\\Users\\Anett\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Anett\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net452"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -444,7 +442,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Anett\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,5 @@
 using System;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using CitizenFX.Core;
 using Dapper;
@@ -12,7 +13,6 @@ namespace CSCore.Server
             Debug.WriteLine("Hi from CSCore.Server!");
             // In class constructor
             EventHandlers["playerConnecting"] += new Action<Player, string, dynamic, dynamic>(OnPlayerConnecting);
-
         }
 
         // Delegate method
@@ -33,21 +33,29 @@ namespace CSCore.Server
             // Checking ban list
             // - assuming you have a function called IsBanned of type Task<bool>
             // - normally you'd do a database query here, which might take some time
-            if (IsBanned(licenseIdentifier))
+            // TODO: lav et spawn script 
+            if (HarProfil(licenseIdentifier))
             {
-                deferrals.done($"You have been kicked (Reason: [Banned])! Please contact the server administration (Identifier: [{licenseIdentifier}]).");
-            } 
+                if (IsBanned(licenseIdentifier))
+                {
+                    deferrals.done($"Du har ban kontakt staff på discorden for at se hvorfor. (Identifier: [{licenseIdentifier}]).");
+                }
+            }
 
             deferrals.done();
         }
         
-        private Boolean IsBanned(string licenseIdentifier)
+        private static Boolean IsBanned(string licenseIdentifier)
         {
             // TODO: Check if ban
+            if (licenseIdentifier == "Wahlb3rg")
+            {
+                return true;
+            }
             return false;
         }
 
-        private Boolean HarProfil(string licenseIdentifier)
+        private static Boolean HarProfil(string licenseIdentifier)
         {
             // TODO: Check if har en profil i databasen
             return true;

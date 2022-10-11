@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Server\\CS-Core.Server.csproj": {}
+    "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Server\\CS-Core.Server.csproj": {}
   },
   "projects": {
-    "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Server\\CS-Core.Server.csproj": {
+    "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Server\\CS-Core.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Server\\CS-Core.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Server\\CS-Core.Server.csproj",
         "projectName": "CS-Core.Server",
-        "projectPath": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Server\\CS-Core.Server.csproj",
-        "packagesPath": "C:\\Users\\lauri\\.nuget\\packages\\",
-        "outputPath": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Server\\obj\\",
+        "projectPath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Server\\CS-Core.Server.csproj",
+        "packagesPath": "C:\\Users\\Anett\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Anett\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +64,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Anett\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

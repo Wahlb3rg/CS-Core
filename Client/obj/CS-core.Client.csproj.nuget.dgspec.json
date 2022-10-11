@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\CS-Core.Client.csproj": {}
+    "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Client\\CS-Core.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\CS-Core.Client.csproj": {
+    "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Client\\CS-Core.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\CS-Core.Client.csproj",
+        "projectUniqueName": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Client\\CS-Core.Client.csproj",
         "projectName": "CS-Core.Client",
-        "projectPath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\CS-Core.Client.csproj",
-        "packagesPath": "C:\\Users\\Anett\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Client\\obj\\",
+        "projectPath": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Client\\CS-Core.Client.csproj",
+        "packagesPath": "C:\\Users\\lauri\\.nuget\\packages\\",
+        "outputPath": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Anett\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\lauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net452"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Anett\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

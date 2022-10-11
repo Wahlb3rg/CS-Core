@@ -1,7 +1,6 @@
 using System;
 using System.Threading.Tasks;
 using CitizenFX.Core;
-using Mono.CSharp;
 using static CitizenFX.Core.Native.API;
 
 namespace CSCoreClient
@@ -26,12 +25,3 @@ namespace CSCoreClient
         
     }
 }
-
-/*
- QBCore.Commands.Add('car', Lang:t("command.car.help"), {{ name = Lang:t("command.car.params.model.name"), help = Lang:t("command.car.params.model.help") }}, true, function(source, args)
-    TriggerClientEvent('QBCore:Command:SpawnVehicle', source, args[1])
-end, 'admin')
-QBCore.Commands.Add('dv', Lang:t("command.dv.help"), {}, false, function(source)
-    TriggerClientEvent('QBCore:Command:DeleteVehicle', source)
-end, 'admin')
-*/

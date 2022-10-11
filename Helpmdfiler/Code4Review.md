@@ -2,7 +2,7 @@
 
 En måde at læse userdata på
 
-```csharp
+```lua
 RegisterNetEvent('qb-multicharacter:server:loadUserData', function(cData)
     local src = source
     if QBCore.Player.Login(src, cData.citizenid) then
@@ -20,7 +20,7 @@ end)
 
 Command funktion som kunne være nice atr bruge
 
-```csharp
+```lua
 function QBCore.Commands.Add(name, help, arguments, argsrequired, callback, permission, ...)
     local restricted = true -- Default to restricted for all commands
     if not permission then permission = 'user' end -- some commands don't pass permission level
@@ -67,7 +67,7 @@ end
 ```
 mere command ting ting
 
-```csharp
+```lua
 function QBCore.Commands.Refresh(source)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)

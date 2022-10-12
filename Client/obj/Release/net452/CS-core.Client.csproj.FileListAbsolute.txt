@@ -1,9 +1,0 @@
-F:\CS FiveM\5m kit\coreting\CS-Core\Client\bin\Release\net452\CS-Core.Client.net.dll
-F:\CS FiveM\5m kit\coreting\CS-Core\Client\bin\Release\net452\CitizenFX.Core.Client.dll
-F:\CS FiveM\5m kit\coreting\CS-Core\Client\obj\Release\net452\CS-Core.Client.csproj.AssemblyReference.cache
-F:\CS FiveM\5m kit\coreting\CS-Core\Client\obj\Release\net452\CS-Core.Client.GeneratedMSBuildEditorConfig.editorconfig
-F:\CS FiveM\5m kit\coreting\CS-Core\Client\obj\Release\net452\CS-Core.Client.AssemblyInfoInputs.cache
-F:\CS FiveM\5m kit\coreting\CS-Core\Client\obj\Release\net452\CS-Core.Client.AssemblyInfo.cs
-F:\CS FiveM\5m kit\coreting\CS-Core\Client\obj\Release\net452\CS-Core.Client.csproj.CoreCompileInputs.cache
-F:\CS FiveM\5m kit\coreting\CS-Core\Client\obj\Release\net452\CS-Core.Client.csproj.CopyComplete
-F:\CS FiveM\5m kit\coreting\CS-Core\Client\obj\Release\net452\CS-Core.Client.net.dll

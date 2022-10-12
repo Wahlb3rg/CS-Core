@@ -1,4 +1,0 @@
-F:\CS FiveM\5m kit\coreting\CS-Core\Server\bin\Release\netstandard2.0\publish\CS-Core.Server.net.dll
-F:\CS FiveM\5m kit\coreting\CS-Core\Server\bin\Release\netstandard2.0\publish\CS-Core.Server.deps.json
-F:\CS FiveM\5m kit\coreting\CS-Core\Server\bin\Release\netstandard2.0\publish\CS-Core.Server.net.pdb
-F:\CS FiveM\5m kit\coreting\CS-Core\Server\bin\Release\netstandard2.0\publish\CitizenFX.Core.Server.dll

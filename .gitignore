@@ -1,5 +1,5 @@
-﻿server/bin/
-server/obj/
+﻿Server/bin/
+Server/obj/
 
-client/bin/
-client/obj/
+Client/bin/
+Client/obj/

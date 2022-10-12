@@ -1,2 +1,0 @@
-F:\CS FiveM\5m kit\coreting\CS-Core\Client\bin\Release\net452\publish\CS-Core.Client.net.dll
-F:\CS FiveM\5m kit\coreting\CS-Core\Client\bin\Release\net452\publish\CitizenFX.Core.Client.dll

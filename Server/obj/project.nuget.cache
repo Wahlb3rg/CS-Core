@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "8d/tE55dBJyNjC+4/+fJ0jt9BighqYzrKFUj9a2XVXkCzECU72yqSi+zJseTXGgLSS9cE9c4XyGR7knqX522cg==",
+  "dgSpecHash": "/TGu4DtFllVF6p5mU746yzh/71/Mk8CMiL0NvCxgo5kaL18Rlkclod/uuJguQYNojVj01pHF8VLI9aB7PK3rHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anett\\Desktop\\git ting\\CS-Core\\Server\\CS-Core.Server.csproj",
+  "projectFilePath": "F:\\CS FiveM\\5m kit\\coreting\\CS-Core\\Server\\CS-Core.Server.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Anett\\.nuget\\packages\\citizenfx.core.server\\1.0.5914\\citizenfx.core.server.1.0.5914.nupkg.sha512",
-    "C:\\Users\\Anett\\.nuget\\packages\\citizenfx.framework.client\\0.2.2\\citizenfx.framework.client.0.2.2.nupkg.sha512",
-    "C:\\Users\\Anett\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Anett\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\lauri\\.nuget\\packages\\citizenfx.core.server\\1.0.5949\\citizenfx.core.server.1.0.5949.nupkg.sha512",
+    "C:\\Users\\lauri\\.nuget\\packages\\citizenfx.framework.client\\0.2.2\\citizenfx.framework.client.0.2.2.nupkg.sha512",
+    "C:\\Users\\lauri\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\lauri\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lauri\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\lauri\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
+    "C:\\Users\\lauri\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
   ],
   "logs": [
     {

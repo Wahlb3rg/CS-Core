@@ -17,7 +17,7 @@ namespace CSCore.Server
         {
             Debug.WriteLine("Hej med dig");
             //NotifyMessage("Jamen hej med dig");
-            CSCore
+            
         }
 
         [Command("hello_server")]

@@ -31,18 +31,17 @@ namespace CSCore.Server
             deferrals.update($"Hello {playerName}, your license [{licenseIdentifier}] is being checked");
             
             /* Checking ban list
-             - assuming you have a function called IsBanned of type Task<bool>
-             - normally you'd do a database query here, which might take some time
-             TODO: lav et spawn script */
-            if (HarProfil(licenseIdentifier))
+             * assuming you have a function called IsBanned of type Task<bool>
+             * normally you'd do a database query here, which might take some time
+             *TODO: lav et spawn script
+             */
+            if (HarProfil(licenseIdentifier) && !IsBanned(licenseIdentifier))
             {
-                if (IsBanned(licenseIdentifier))
-                {
-                    deferrals.done($"Du har ban kontakt staff på discorden for at se hvorfor. (Identifier: [{licenseIdentifier}]).");
-                }
+                deferrals.done();
+                TriggerEvent("spawn");
+                spwan();
             }
-
-            deferrals.done();
+            deferrals.done($"Du har ban kontakt staff på discorden for at se hvorfor. (Identifier: [{licenseIdentifier}]).")
         }
         
         private static Boolean IsBanned(string licenseIdentifier)
@@ -61,8 +60,5 @@ namespace CSCore.Server
             return true;
         }
 
-        //------------------------------------------------------------------------------------------------------------\\
-        
-        
     }
 }
